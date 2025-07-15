@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(cow1.sound("Johnny"));
 
-        System.out.println("Heladasdlo");
+        System.out.println("Helaqwdwdasdlo");
 
     }
 
