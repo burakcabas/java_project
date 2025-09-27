@@ -18,7 +18,7 @@ public class Burak {
             for(int i : art){
                 System.out.print(i);
             }
-            System.out.println();
+            System.out.println("wassup");
         }
 
     }
