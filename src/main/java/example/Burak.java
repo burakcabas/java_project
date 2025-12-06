@@ -1,24 +1,29 @@
 package example;
 
+import java.util.*;
+import java.lang.*;
+import java.math.*;
+import java.io.*;
+
 public class Burak {
 
     public static void main(String[] args){
 
-        System.out.println("Hello World!");
+        boolean[] theTruth = {true, true, false};
 
-        int[] numbers;
-        int[] numbers1 = {1, 2, 3};
-        int[] numbers3 = new int[3];
+        for(boolean i : theTruth){
+            System.out.println(i);
+        }
 
-        int[][] multi;
-        int[][] multi1 = {{1,2,3}, {4,5,6}, {7,8}};
-        int[][] multi2 = new int[2][3];
+        int[] numbers = new int[5]; //this is another way to initiate an array
 
-        for(int[] art : multi1){
-            for(int i : art){
+        int[][] multiDimensionalArray = {{1,2,3}, {4, 5, 6}, {7, 8, 9}};
+
+        for(int[] array : multiDimensionalArray){
+            for(int i : array){
                 System.out.print(i);
             }
-            System.out.println("wassup brother");
+            System.out.println();
         }
 
     }
