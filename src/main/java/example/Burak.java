@@ -9,6 +9,8 @@ public class Burak {
 
     public static void main(String[] args){
 
+        int x = 0;
+
         boolean[] theTruth = {true, true, false};
 
         for(boolean i : theTruth){
@@ -39,6 +41,20 @@ public class Burak {
                 System.out.print(i + " ");
             }
             System.out.println();
+        }
+
+        outerloop:
+        while(x<5){
+            switch(x){
+                case 0:{
+                    System.out.println("zero");
+                    break outerloop;
+                }
+                default:{
+                    System.out.println("something else");
+                }
+            }
+            x++;
         }
 
     }
