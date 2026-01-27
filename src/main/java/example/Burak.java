@@ -15,13 +15,28 @@ public class Burak {
             System.out.println(i);
         }
 
-        int[] numbers = new int[5]; //this is another way to initiate an array
+        char[] letters = new char[5];
 
-        int[][] multiDimensionalArray = {{1,2,3}, {4, 5, 6}, {7, 8, 9}};
+        letters[0] = 'a';
+        letters[1] = 'b';
+        letters[2] = 'c';
+        letters[3] = 'd';
+        letters[4] = 'e';
 
-        for(int[] array : multiDimensionalArray){
-            for(int i : array){
-                System.out.print(i);
+        for(char i : letters){
+            System.out.println(i);
+        }
+
+        int[][] numbers = new int[2][2];
+
+        numbers[0][0] = 0;
+        numbers[0][1] = 1;
+        numbers[1][0] = 2;
+        numbers[1][1] = 3;
+
+        for(int[] row : numbers){
+            for(int i: row){
+                System.out.print(i + " ");
             }
             System.out.println();
         }
