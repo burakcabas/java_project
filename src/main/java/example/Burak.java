@@ -57,6 +57,13 @@ public class Burak {
             x++;
         }
 
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Please enter a boolean value. A boolean value is either a string \"true\" or \"false\": ");
+        boolean myBooleanValue = scan.nextBoolean();
+
+        System.out.println("Your boolean value is: " + myBooleanValue);
+
     }
 
 }
