@@ -18,6 +18,7 @@ public class SampleListExamples {
         while(flag){
 
             boolean validInteger = false;
+
            while(!validInteger) {
                //Asking for the integer
                System.out.print("Please write an integer for your ArrayList: ");
