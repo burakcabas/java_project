@@ -16,6 +16,9 @@ public class HashMapAndHashSetExample {
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Slovenia", "Ljubljana");
         capitalCities.put("Slovenia", "Ljubljana"); // this overwrites
+        capitalCities.put(null, null);
+
+        System.out.println(capitalCities);
 
         capitalCities.remove("Germany");
         System.out.println(capitalCities.get("Slovenia"));
@@ -44,8 +47,10 @@ public class HashMapAndHashSetExample {
         basicNumbers.add(3);
         basicNumbers.add(4);
         basicNumbers.add(5);
-        basicNumbers.add(1); // this will get ignored because it's a HashSet
+        basicNumbers.add(1); // this will get ignored because it's a HashSet // /not added // njl *//*
         basicNumbers.add(7);
+
+        /* hfg */
 
         basicNumbers.remove(7);
 

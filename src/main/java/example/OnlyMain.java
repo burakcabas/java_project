@@ -11,7 +11,7 @@ public class OnlyMain {
 
         hairstyles.add("curly");
         hairstyles.add("straight");
-        hairstyles.add("bun");
+        hairstyles.add("bald");
 
         System.out.println(hairstyles);
 
